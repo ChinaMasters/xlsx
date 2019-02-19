@@ -17,7 +17,7 @@ export default {
   mounted() {},
   methods: {
     importf() {
-      excel.importExcel().then(data=>{
+      excel.importExcel("A2:F10").then(data=>{ //A2:F10 表格数据读取范围
         console.log(data)
         this.data = data;
       })
