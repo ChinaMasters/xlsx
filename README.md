@@ -1,6 +1,6 @@
-# xslx
+# xslx下载和导入excel
 
-> A Vue.js project
+> xslx下载和导入excel，可以合并单元格和设置表格样式
 
 ## Build Setup
 
